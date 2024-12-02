@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "App_Prestamos.Controllers.PrestamosController",
+    "Method": "Agregar",
+    "RelativePath": "api/Prestamos/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "App_Prestamos.Models.Prestamo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App_Prestamos.Controllers.PrestamosController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Prestamos/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "App_Prestamos.Controllers.PrestamosController",
+    "Method": "Lista",
+    "RelativePath": "api/Prestamos/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
